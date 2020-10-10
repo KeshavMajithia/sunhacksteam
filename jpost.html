@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Post Jobs</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mate">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="assets/css/smoothproducts.css">
+</head>
+
+<body>
+    
+             <h1><center> Job Postings Form</center></h1> 
+             <div class="container">
+        <form action="action_page.php">
+
+             <label for="cname">Company/Business Name</label>
+             <input type="text" id="cname" name="cname" placeholder="Company/Business' name">
+              <br><br>
+            <label for="address">Company/Business Address</label>
+             <input type="text" id="address" name="address" placeholder="Company/Business' Address">
+              <br><br>
+             <label for="pay">Salary (per hour)</label>
+             <input type="number" step="any" id="pay" name="Hourly Pay" min="0">
+               <br><br>
+             <label for="wtype">Job Type</label><br>
+             
+                    <input type="radio" id="contractual" name="job type" value="Contractual">
+                    <label for="contractual">Contractual</label><br>
+                    <input type="radio" id="Full Time" name="job type" value="full time">
+                    <label for="full time">Full Time</label>
+              <br><br>
+              <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                <small>Format: 123-45-678</small>
+              <br><br>
+              
+             <label for="Job Type">Job Title</label>
+             <textarea id="description" name="description" placeholder="Enter Here" style="height:45px"></textarea>
+              <br><br>
+
+             <label for="description">Job Description</label>
+             <textarea id="description" name="description" placeholder="Details about the Job" style="height:100px"></textarea>
+              <br><br>
+
+             <input type="submit" value="Submit">
+                 </form>
+    <footer class="page-footer dark">
+        <div class="footer-copyright">
+            <p>© 2020 Copyright Text</p>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="assets/js/smoothproducts.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
